@@ -13,4 +13,4 @@ useUnifiedTopology: true
 app.use(express.json())
 app.use(routes)
 
-app.listen(3333, err => err || "I'm up")
+app.listen(3333, err => console.log(err || "I'm up"))
